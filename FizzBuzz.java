@@ -38,7 +38,7 @@ public class FizzBuzz {
   }
 
   @Test
-    public void shouldReturnInput() {
+    public void shouldReturnInputIfNotMultipleOfThreeOrFive() {
       assertEquals("1", FizzBuzz(1));
       assertEquals("2", FizzBuzz(2));
       assertEquals("4", FizzBuzz(4));
